@@ -1,0 +1,8 @@
+Django>=4.0,<5.0
+firebase-admin>=5.0.0
+firebase-auth>=1.0.0
+django-allauth>=0.44.0
+requests>=2.26.0
+twilio>=6.56.0  # Only if you want mobile OTP (can be removed if not)
+python-dotenv>=0.19.2  # For loading sensitive keys like API keys
+gunicorn>=20.1.0  # For production deployment
